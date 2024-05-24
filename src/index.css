@@ -11,3 +11,12 @@
 .hero{
   background: url(/spacebg.jpg) center center/cover;
 }
+
+.skill{
+  background: rgb(10,12,13);
+background: linear-gradient(165deg, rgba(10,12,13,1) 0%, rgba(30,28,41,1) 51%, rgba(67,78,99,1) 100%);
+
+
+
+
+}
