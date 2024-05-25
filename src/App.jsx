@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Project from "./components/Project"
 import Skills from "./components/Skills"
 import AOS from "aos"
+import Herox from "./components/Herox"
 
 function App() {
 
@@ -13,18 +14,14 @@ function App() {
   
   return (
     <>
-      <div className="bg-[#141851] h-[100%]">
-      <section className="fixed w-full">
+      
+      <section className="fixed w-full z-10">
         <Navbar/>
       </section>
-
-      <section className="h-full">
         <Hero/>
-        </section>
         <Skills/>
 
         <Project/>
-      </div>
     </>
   )
 }
