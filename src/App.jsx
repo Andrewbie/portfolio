@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       
-      <section className="fixed w-full z-10">
+      <section className="fixed w-[100vw] z-10">
         <Navbar/>
       </section>
         <Hero/>
