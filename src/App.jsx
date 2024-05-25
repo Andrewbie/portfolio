@@ -5,6 +5,7 @@ import Project from "./components/Project"
 import Skills from "./components/Skills"
 import AOS from "aos"
 import Herox from "./components/Herox"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Skills/>
 
         <Project/>
+        <Contact/>
     </>
   )
 }
