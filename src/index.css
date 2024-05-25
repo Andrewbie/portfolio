@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+  scroll-behavior: smooth;
+}
 
 
 .hero{
@@ -86,6 +88,9 @@ background: linear-gradient(165deg, rgba(10,12,13,1) 0%, rgba(30,28,41,1) 51%, r
   right: 50%;
  }
  
+ .contact-img{
+  border-radius: 58% 42% 77% 23% / 27% 55% 45% 73% ;
+ }
  .input:focus ~ .bar:before, .input:focus ~ .bar:after {
   width: 50%;
  }

@@ -12,7 +12,7 @@ const Skills = () => {
     }
 
   return (
-    <>  <div className='skill md:h-[100vh] w-[100%] pt-13 p-10 flex flex-col gap-12 '>
+    <>  <div id='skills' className='skill md:h-[100vh] w-[100%] pt-13 p-10 flex flex-col gap-12 '>
         <div>
             <div className='text-[#fff] text-2xl md:text-4xl font-bold'>Technical Proficiency</div>
         </div>

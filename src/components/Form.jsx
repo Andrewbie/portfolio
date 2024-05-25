@@ -26,7 +26,7 @@ export default function Form() {
   };
 
   return (
-    <div>
+    <div className="">
       <form onSubmit={onSubmit} className="flex flex-col items-center gap-4">
         <div className="flex flex-col gap-5 w-full justify-center items-center pl-[2.2rem]">
           {/* <input type="text"  /> */}
@@ -59,7 +59,7 @@ export default function Form() {
 
         <button type="submit" className="border-2 p-2 w-[55%] md:w-[200px]">Submit Form</button>
       </form>
-      <span>{result}</span>
+      <div className="text-center mt-4">{result}</div>
     </div>
   );
 }

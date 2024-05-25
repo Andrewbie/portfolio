@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <>
-      <div className="bg-spacebg w-[100%] h-[100vh] bg-cover object-center items-center flex flex-col md:flex-row pt-10 md:pt-20">
+      <div id="home" className="bg-spacebg w-[100%] h-[100vh] bg-cover object-center items-center flex flex-col md:flex-row pt-16 md:pt-[170px]">
         <div className="w-[100%] h-[65%] md:h-[100%] md:w-[55%] p-5 md:justify-start md:items-start justify-center items-center md:ml-20 flex flex-col gap-10">
           <div className="p-2 text-white border-2 text-sm md:text-lg w-fit" data-aos="fade-right" data-aos-easing="linear"
      data-aos-duration="500">
