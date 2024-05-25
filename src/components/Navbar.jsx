@@ -19,9 +19,9 @@ const Navbar = () => {
         </div>
         <div className='flex items-center text-[#efefef] gap-3'>
             <div className='flex gap-4 text-lg'>
-                <a href="">Home</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
             </div>
             <div className='flex gap-3 items-center'>
                 <div className='flex gap-2'>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <a className='w-[40px] h-[40px]  object-contain rounded-full overflow-hidden border-2 border-white flex items-center justify-center' href=""><i class="fa-brands fa-lg fa-linkedin-in"></i></a>
                 </div>
                 <div>
-                    <button className='border-2 border-white px-4 py-3'>Let's Connect</button>
+                    <a href='#contact-us' className='border-2 border-white px-4 py-3'>Let's Connect</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                     <a className='w-[40px] h-[40px]  object-contain rounded-full overflow-hidden border-2 border-white flex items-center justify-center' href=""><i class="fa-brands fa-lg fa-linkedin-in"></i></a>
                 </div>
                 <div>
-                    <button className='border-2 border-white px-4 py-3'>Let's Connect</button>
+                    <a href='#contact-us' onClick={toggle_nav} className='border-2 border-white px-4 py-3'>Let's Connect</a>
                 </div>
             </div>
             
