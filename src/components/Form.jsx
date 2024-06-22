@@ -37,19 +37,19 @@ export default function Form() {
             <label>Name</label>
           </div>
           <div className="group w-[85%]">
-            <input required type="text" class="input" name="name"/>
+            <input required type="text" class="input" name="E_mail"/>
             <span className="highlight"></span>
             <span className="bar"></span>
             <label>E-Mail</label>
           </div>
           <div className="group w-[85%]">
-            <input required type="text" class="input" name="name"/>
+            <input required type="text" class="input" name="Contact_no"/>
             <span className="highlight"></span>
             <span className="bar"></span>
             <label>Contact no.</label>
           </div>
           <div className="group w-[85%]">
-            <input required type="text" class="input" name="name"/>
+            <input required type="text" class="input" name="talking_about"/>
             <span className="highlight"></span>
             <span className="bar"></span>
             <label>Talking About</label>
