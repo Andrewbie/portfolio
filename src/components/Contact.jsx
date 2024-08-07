@@ -14,7 +14,7 @@ const Contact = () => {
   },[])
   return (
     <>
-      <div id='contact-us' className='w-[100%] h-[100vh] bg-[#232328] text-white pt-20'>
+      <div id='contact-us' className='w-[100%] pb-9 md:h-[100vh] bg-[#232328] text-white pt-20'>
           <div className='text-2xl md:text-4xl font-bold text-center mb-10'>Get in touch</div>
           <div className='md:flex'>
               <div className='mt-6 md:w-[50%]'>
