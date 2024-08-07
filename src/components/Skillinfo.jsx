@@ -10,9 +10,9 @@ const Skillinfo = ({ heading, skills }) => {
             return (
               <div className="flex w-[100%] items-center md:gap-8 md:mb-[20px] justify-center">
                 <div className="w-[90%] md:w-[300px] text-[15px] md:text-xl">{item.skill}</div>
-                <div className="bg-[#12041c] h-[7px] w-[100%] flex items-center rounded-full overflow-hidden">
+                <div className="bg-[#12041c] h-[7px] w-[450px] flex items-center rounded-full overflow-hidden">
                   <div
-                    className={`w-[${item.percentage}] bg-[#f0cbff] h-[95%]`}
+                    className={`w-[${item.percentage}%] bg-[#f0cbff] h-[95%]`}
                   ></div>
                 </div>
               </div>

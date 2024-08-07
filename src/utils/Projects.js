@@ -1,13 +1,13 @@
 export const PROJECTS = [
     {
         title:"Homely Hub",
-        image:"/Crodfunding.png",
+        image:"/homely-hub.jpg",
         description:"A hotel booking website made using MERN-stack.",
-        link:"https://github.com/Andrewbie/Crowd_funding",
+        link:"https://github.com/Andrewbie/Homely-hub",
     },
     {
         title:"iPhone Website",
-        image:"/Crodfunding.png",
+        image:"/iphone-website.png",
         description:"Clone of iPhone website integrating three.js",
         link:"https://github.com/Andrewbie/iPhone-website",
     },
@@ -19,19 +19,19 @@ export const PROJECTS = [
     },
     {
         title:"Crowdfunding dApp",
-        image:"/Crodfunding.png",
+        image:"/Crowdfunding-img.jpg",
         description:"A blockchain based crowdfunding platform made using Thirdweb and React js",
         link:"https://github.com/Andrewbie/Crowd_funding",
     },
     {
         title:"iNotebook",
-        image:"/Crodfunding.png",
+        image:"/inotebook.png",
         description:"A note keeping application on cloud.",
         link:"https://github.com/Andrewbie/inotebook",
     },
     {
         title:"News Grater",
-        image:"/Crodfunding.png",
+        image:"/news-grater.jpg",
         description:"A categorized news application.",
         link:"https://github.com/Andrewbie/news-grater",
     },

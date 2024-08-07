@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
           <div data-aos="fade-right" data-aos-easing="linear"
      data-aos-duration="500" data-aos-delay="500">
-            <p className="text-gray-300 text-xs w-full md:w-[85%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veritatis autem quo, alias eligendi consectetur perferendis quibusdam hic rem qui quidem eos eaque itaque, fugiat voluptatum optio recusandae. Quo, perspiciatis.</p>
+            <p className="text-gray-100 text-sm w-full md:w-[85%]">Enthusiastic Software Developer with a strong foundation in full-stack development and a passion for learning new technologies. Eager to apply problem-solving skills and technical knowledge to contribute to innovative projects and team success.</p>
           </div>
           <div className="text-white text-sm md:text-lg" data-aos="fade-right" data-aos-easing="linear"
      data-aos-duration="500" data-aos-delay="500">

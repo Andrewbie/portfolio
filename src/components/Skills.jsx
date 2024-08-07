@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import Skillcard from './Skillcard'
 import { SKILLS } from '../utils/Skills'
 import Skillinfo from './Skillinfo'
+import { BADGES } from '../utils/badges'
+import Skillkard from './Skillkard'
 const Skills = () => {
 
     const [selectedSkill, setSelectedSkill] = useState(SKILLS[0])
@@ -31,6 +33,14 @@ const Skills = () => {
             </div>
         </div>
         </div>
+        {/* <div className='flex gap-20 flex-wrap'>
+            {
+                BADGES.map((item)=>
+                (
+                    <Skillkard category={item.category} name={item.name}/>
+                ))
+            }
+        </div> */}
     </>
   )
 }
