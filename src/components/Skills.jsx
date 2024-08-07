@@ -26,7 +26,7 @@ const Skills = () => {
                 )
                 })}
             </div>
-            <div className='md:w-[50%] w-full h-[50%] md:h-full' data-aos="flip-up" data-aos-anchor-placement="top-center">
+            <div className='md:w-[50%] w-full h-[50%] md:h-full' data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <Skillinfo heading={selectedSkill.title} skills={selectedSkill.skills}/>
             </div>
         </div>

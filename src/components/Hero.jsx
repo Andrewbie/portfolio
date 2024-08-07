@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typewriter from 'typewriter-effect';
-
+import Lottie from "lottie-web";
+import heroanim from "../../public/lottie/hero-anim.json"
 const Hero = () => {
+  useEffect(()=>{
+    const instance = Lottie.loadAnimation({
+      container:document.querySelector("#hero-anim"),
+      animationData:heroanim,
+      loop:true
+    });
+    return () => instance.destroy();
+  },[])
   return (
     <>
       <div id="home" className="bg-spacebg w-[100%] h-[100vh] bg-cover object-center items-center flex flex-col md:flex-row pt-16 md:pt-[170px]">
@@ -36,7 +45,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-[100%] md:w-[45%] h-[35%] md:h-full flex justify-end">
-            <div className="w-[95%] h-[95%] object-cover  flex justify-end"><img className="" src="/astronaut.png" alt="" /></div>
+            <div id="hero-anim" className="w-[95%] h-[95%] object-cover flex justify-end">
+              
+            </div>
         </div>
       </div>
     </>
