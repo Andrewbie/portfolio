@@ -13,7 +13,8 @@ const Skillinfo = ({ heading, skills }) => {
                 <div className="bg-[#12041c] h-[7px] w-[450px] flex items-center rounded-full overflow-hidden">
                   <div
                     className={`w-[${item.percentage}%] bg-[#f0cbff] h-[95%]`}
-                  ></div>
+                  >
+                  </div>
                 </div>
               </div>
             );

@@ -22,7 +22,7 @@ const Contact = () => {
               <div className='flex gap-2 items-center justify-center mt-6'>
                     <a className='w-[40px] h-[40px]  object-contain rounded-full overflow-hidden border-2 border-white flex items-center justify-center hover:bg-white hover:text-black' href="https://www.linkedin.com/in/shanu-aaryan/" target='_blank'><i class="fa-brands fa-lg fa-linkedin-in"></i></a>
                     <a className='w-[40px] h-[40px]  object-contain rounded-full overflow-hidden border-2 border-white flex items-center justify-center hover:bg-white hover:text-black' href="https://github.com/Andrewbie/" target='_blank'><i class="fa-brands fa-lg fa-github"></i></a>
-                    <a className='w-[40px] h-[40px]  object-contain rounded-full overflow-hidden border-2 border-white flex items-center justify-center hover:bg-white hover:text-black' href="https://www.instagram.com/andrewbie_" target='_blank'><i class="fa-brands fa-lg fa-linkedin-in"></i></a>
+                    <a className='w-[40px] h-[40px]  object-contain rounded-full overflow-hidden border-2 border-white flex items-center justify-center hover:bg-white hover:text-black' href="https://www.instagram.com/andrewbie_" target='_blank'><i class="fa-brands fa-lg fa-instagram"></i></a>
               </div>
               </div>
 
