@@ -6,6 +6,7 @@ import Skills from "./components/Skills"
 import AOS from "aos"
 import Herox from "./components/Herox"
 import Contact from "./components/Contact"
+import Experience from "./components/Experience"
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
       </section>
         <Hero/>
         <Skills/>
-
+        <Experience/>
         <Project/>
         <Contact/>
     </>
